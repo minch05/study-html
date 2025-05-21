@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Tag Gitatag</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>개인정보 입력</legend>
+            <p>이름 : <input type="text"></p>
+            <p>학과 : <input type="text" size="20" value="소프트웨어공학과"></p>
+            <br><hr>
+            <h3>오늘 날짜 입력</h3>
+            <p>Today : <input type="date" name="Today"></p>
+            <p>생일 : <input type="month" name="birth"></p>
+            <br><hr>
+            <h3>주간 계획(년/주) 입력</h3>
+            <p>주간 계획 : <input type="week" name="" id="weekend"></p>
+            <br><hr>
+            <h3>프로젝트 수행 기간</h3>
+            <p>From : <input type="date" name="from" min="2025-05-20" max="2025-12-31"></p>
+            <p>To : <input type="date" name="to" min="2026-05-30" max="2028-12-31"></p>
+            <br><hr>
+            <h3>원하는 색상을 선택하세요.</h3>
+            <input type="color" name="color_value" value="#0000ff">
+            <br><hr>
+            <h3>나이를 입력하세요</h3>
+            <input type="number" name="age" min="1" max="100">
+            <br><hr>
+            <h3>홈페이지 주소를 입력하세요.</h3>
+            홈페이지 : <input type="url" name="myhome">
+            <p>쓰기가능 : <input type="text" name="name" size="20" placeholder="이름을 입력하세요" autofocus></p>
+            <p>읽기전용 : <input type="text" name="name" size="10" readonly></p>
+            <p>사용안함 : <input type="text" name="name" size="10" disabled></p>
+            <p>자동완성 : <input type="text" name="name" size="10" autocomplete="on" required></p>
+            <textarea cols="50" rows="3" spellcheck="true">오타를 체크합니다.</textarea>
+            <p></p>
+        </fieldset>
+        <input type="submit" value="제출">
+        <input type="reset" value="다시입력">
+    </body>
+</html>
