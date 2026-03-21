@@ -1,1 +1,133 @@
-<h1>hello, world</h1>
+<!DOCTYPE html> <!-- HTML5 문서라는 선언 -->
+<html lang="en"> <!-- HTML 문서 시작, 언어는 영어 -->
+
+<head> <!-- 문서의 설정 정보 -->
+  <meta charset="UTF-8"> <!-- 글자 인코딩 설정 (한글 깨짐 방지) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 반응형 설정 -->
+  <title>FAQ Page</title> <!-- 브라우저 탭 제목 -->
+
+  <style> /* CSS 스타일 시작 */
+
+    body { /* 페이지 전체 영역 */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #111827;
+    }
+
+    header { /* 페이지 상단 영역 (제목 영역) */
+      text-align: center;
+      padding-top: 70px;
+      padding-bottom: 70px;
+      background-color: #ffffff;
+    }
+
+    header h1 { /* 메인 제목 */
+      margin: 0;
+      font-size: 46px;
+      font-weight: bold;
+    }
+
+    header p { /* 제목 아래 설명 글 */
+      margin-top: 24px;
+      font-size: 18px;
+      color: #1f2937;
+    }
+
+    section { /* 본문 전체 영역 */
+      max-width: 720px;
+      margin: 0 auto;
+      padding-top: 90px;
+      padding-bottom: 70px;
+    }
+
+    section h2 { /* 질문 제목 */
+      margin-bottom: 36px;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    section p { /* 본문 설명 문단 */
+      margin-bottom: 28px;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #1f2937;
+    }
+
+    ol { /* 번호 목록 */
+      margin-left: 34px;
+    }
+
+    ol li { /* 번호 목록 항목 */
+      margin-bottom: 18px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    ul { /* 점 목록 */
+      margin-left: 28px;
+    }
+
+    ul li { /* 점 목록 항목 */
+      margin-bottom: 18px;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    strong { /* 굵은 글씨 (강조) */
+      font-weight: bold;
+    }
+
+    a { /* 링크 */
+      color: #4f7df3;
+      text-decoration: none;
+    }
+
+    hr { /* 구분선 */
+      border: none;
+      border-top: 1px solid #d1d5db;
+      margin: 42px 0;
+    }
+
+  </style> <!-- CSS 스타일 끝 -->
+</head>
+
+<body> <!-- 실제 화면에 보이는 내용 -->
+
+  <header> <!-- 상단 제목 영역 -->
+    <h1>Frequently Asked Questions</h1> <!-- 메인 제목 -->
+    <p>Browse through the most frequently asked questions</p> <!-- 부제목 -->
+  </header>
+
+  <section> <!-- 본문 영역 시작 -->
+
+    <h2>How can I track my order?</h2> <!-- 질문 제목 -->
+
+    <p>You can track your order using the following steps:</p> <!-- 설명 문장 -->
+
+    <ol> <!-- 번호 목록 시작 -->
+      <li>Go to the Order <a href="#">Tracking page</a>.</li> <!-- 1번 -->
+      <li>Enter your order number and email address.</li> <!-- 2번 -->
+      <li>Click on the Track Order button to view the current status of your shipment.</li> <!-- 3번 -->
+    </ol> <!-- 번호 목록 끝 -->
+
+    <p>If you encounter any issues, please visit our <a href="#">Help Center</a>.</p> <!-- 추가 안내 -->
+
+    <hr> <!-- 구분선 -->
+
+    <h2>What is your return policy?</h2> <!-- 두 번째 질문 -->
+
+    <p>We offer a 30-day return policy on most items. Here are some key points:</p> <!-- 설명 -->
+
+    <ul> <!-- 점 목록 시작 -->
+      <li><strong>Items must be in original condition:</strong> Unworn, unused, and unwashed.</li>
+      <li><strong>Include original packaging and tags:</strong> All items should be returned with their original packaging and tags.</li>
+      <li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.</li>
+    </ul> <!-- 점 목록 끝 -->
+
+    <p>For more detailed information, read our full <a href="#">Return Policy</a>.</p>
+
+  </section> <!-- 본문 영역 끝 -->
+
+</body> <!-- 화면 내용 끝 -->
+</html> <!-- HTML 문서 끝 -->
